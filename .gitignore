@@ -1,0 +1,55 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Original research PDFs and archives
+Articles/
+archive/
+report/duplicate_backup/
+
+# Diagnostic image
+report/A023_page1_check.png
+
+# Exclude all data by default
+data/*
+
+# Include active application data
+!data/indexes/
+!data/indexes/fixed_size_dense_normalized_plus_A160_A164_provisional/
+!data/indexes/fixed_size_dense_normalized_plus_A160_A164_provisional/**
+!data/indexes/fixed_size_bm25_normalized_plus_A160_A164_provisional/
+!data/indexes/fixed_size_bm25_normalized_plus_A160_A164_provisional/**
+!data/processed/
+!data/processed/phase4_chunking_comparison_normalized_plus_A160_A164_provisional/
+!data/processed/phase4_chunking_comparison_normalized_plus_A160_A164_provisional/fixed_size_chunks.csv
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Exclude all other index versions
+data/indexes/*
+!data/indexes/fixed_size_dense_normalized_plus_A160_A164_provisional/
+!data/indexes/fixed_size_bm25_normalized_plus_A160_A164_provisional/
+
+# Exclude all other processed-data folders
+data/processed/*
+!data/processed/phase4_chunking_comparison_normalized_plus_A160_A164_provisional/
+data/processed/phase4_chunking_comparison_normalized_plus_A160_A164_provisional/*
+!data/processed/phase4_chunking_comparison_normalized_plus_A160_A164_provisional/fixed_size_chunks.csv

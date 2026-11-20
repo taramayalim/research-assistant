@@ -1,0 +1,11 @@
+{
+    "index_type": "BM25",
+    "chunking_strategy": "fixed_size",
+    "corpus": "normalized_plus_A160_A164_provisional",
+    "document_count": 5774,
+    "article_count": 151,
+    "tokenizer_pattern": "[a-z0-9]+(?:[._+-][a-z0-9]+)*",
+    "lowercase": true,
+    "library": "rank_bm25",
+    "library_class": "BM25Okapi"
+}

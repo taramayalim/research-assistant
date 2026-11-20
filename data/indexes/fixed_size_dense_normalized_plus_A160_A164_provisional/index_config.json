@@ -1,0 +1,13 @@
+{
+    "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+    "embedding_dimension": 384,
+    "similarity_metric": "cosine_similarity",
+    "index_type": "FAISS IndexFlatIP",
+    "normalization": true,
+    "device": "cpu",
+    "total_vectors": 5774,
+    "total_chunks": 5774,
+    "unique_articles": 151,
+    "chunking_strategy": "fixed_size",
+    "input_file": "C:\\Users\\Acer\\OneDrive\\Desktop\\group3_project\\data\\processed\\phase4_chunking_comparison_normalized_plus_A160_A164_provisional\\fixed_size_chunks.csv"
+}
